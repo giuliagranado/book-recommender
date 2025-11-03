@@ -38,9 +38,11 @@ O arquivo `livros.csv` contém colunas como:
    git clone https://github.com/giuliagranado/book-recommender.git
    cd book-recommender
 2. Instale as dependências
-    ```bash pip install -r requirements.txt
+    ```bash
+     pip install -r requirements.txt
 3. Execute o script
-     ```bash python scripts/recomendador.py
+     ```bash
+      python scripts/recomendador.py
 4. Digite uma descrição, sinopse ou tema para receber recomendações!
 
 ---
