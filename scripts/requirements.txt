@@ -1,5 +1,6 @@
 pandas
 scikit-learn
+nltk
 
 # Bibliotecas necessárias para:
 # Manipular o CSV (pandas)
