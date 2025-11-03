@@ -44,6 +44,12 @@ O arquivo `livros.csv` contém colunas como:
 4. Digite uma descrição, sinopse ou tema para receber recomendações!
 
 ---
+## 📦 Adicionar novos livros
+Para incluir novos livros no dataset, execute:
+```bash
+python scripts/adicionar_livros.py
+
+---
 ## 📌 Tecnologias utilizadas
 * Python
 * Pandas
