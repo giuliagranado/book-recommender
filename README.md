@@ -49,8 +49,8 @@ O arquivo `livros.csv` contém colunas como:
 ## 📦 Adicionar novos livros
 Para incluir novos livros no dataset, execute:
 ```bash
-python scripts/adicionar_livros.py
-
+python scripts/add_livros.py
+```
 ---
 ## 📌 Tecnologias utilizadas
 * Python
@@ -61,4 +61,5 @@ python scripts/adicionar_livros.py
 
 ---
 ## 📘 Licença
-Este projeto é de uso educacional e não possui fins comerciais. As sinopses utilizadas são públicas e foram incluídas apenas para fins de demonstração.
+Este projeto é de uso educacional e não possui fins comerciais.                                                                                     
+As sinopses utilizadas são públicas e foram incluídas apenas para fins de demonstração.
