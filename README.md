@@ -2,9 +2,7 @@
 Este projeto aplica conceitos de **Álgebra Linear** para recomendar livros com base na **similaridade entre sinopses**. Utilizando a técnica de **TF-IDF (Term Frequency–Inverse Document Frequency)**, o sistema transforma textos em vetores, depois compara suas distâncias para identificar obras com temas semelhantes.
 
 ---
-
 ## 🧠 Objetivo
-
 Demonstrar a aplicação de vetorização textual e comparação de similaridade usando Álgebra Linear, com foco em:
 
 - Representação de sinopses como vetores numéricos
@@ -25,38 +23,33 @@ recomendador_livros_tfidf/
 </pre>
 
 ---
-
 ## 📄 Dataset
-
 O arquivo `livros.csv` contém colunas como:
-
 - `titulo`: Nome do livro
 - `autor`: Nome do autor
 - `genero`: Gênero literário
 - `sinopse`: Breve descrição da obra
-
-> ⚠️ As sinopses foram coletadas de fontes públicas e são utilizadas apenas para fins educacionais, sem fins comerciais ou redistribuição.
+> ⚠️ As sinopses foram coletadas apenas de fontes públicas.
 
 ---
-
 ## ⚙️ Como executar
 1. Clone o repositório
    ```bash
    git clone https://github.com/giuliagranado/book-recommender.git
    cd book-recommender
 2. Instale as dependências
-   pip install -r requirements.txt
+    ```bash pip install -r requirements.txt
 3. Execute o script
-    python scripts/recomendador.py
-4. Digite uma descrição ou tema para receber recomendações!
+     ```bash python scripts/recomendador.py
+4. Digite uma descrição, sinopse ou tema para receber recomendações!
 
-Digite uma descrição ou sinopse: romance entre jovens em uma cidade pequena
-
+---
 ## 📚 Recomendações:
 Título: Orgulho e Preconceito | Autor: Jane Austen | Gênero: Romance
 Título: O Morro dos Ventos Uivantes | Autor: Emily Brontë | Gênero: Romance
 Título: Dom Casmurro | Autor: Machado de Assis | Gênero: Romance
 
+---
 ## 📌 Tecnologias utilizadas
 * Python
 * Pandas
