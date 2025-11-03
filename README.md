@@ -1,9 +1,4 @@
-# book-recommender
-Recomendador literário com base em sinopses, usando Álgebra Linear para vetorização de textos e comparação de sinopses, utilizando TF-IDF 
-
-
-# 📚 Recomendador de Livros com TF-IDF
-
+# 📚 book-recommender
 Este projeto aplica conceitos de **Álgebra Linear** para recomendar livros com base na **similaridade entre sinopses**. Utilizando a técnica de **TF-IDF (Term Frequency–Inverse Document Frequency)**, o sistema transforma textos em vetores, depois compara suas distâncias para identificar obras com temas semelhantes.
 
 ---
