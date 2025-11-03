@@ -38,18 +38,10 @@ O arquivo `livros.csv` contém colunas como:
    git clone https://github.com/giuliagranado/book-recommender.git
    cd book-recommender
 2. Instale as dependências
-    ```bash
      pip install -r requirements.txt
 3. Execute o script
-     ```bash
       python scripts/recomendador.py
 4. Digite uma descrição, sinopse ou tema para receber recomendações!
-
----
-## 📚 Recomendações:
-Título: Orgulho e Preconceito | Autor: Jane Austen | Gênero: Romance
-Título: O Morro dos Ventos Uivantes | Autor: Emily Brontë | Gênero: Romance
-Título: Dom Casmurro | Autor: Machado de Assis | Gênero: Romance
 
 ---
 ## 📌 Tecnologias utilizadas
@@ -59,5 +51,6 @@ Título: Dom Casmurro | Autor: Machado de Assis | Gênero: Romance
 * TF-IDF Vectorizer
 * Similaridade de Cosseno
 
+---
 ## 📘 Licença
 Este projeto é de uso educacional e não possui fins comerciais. As sinopses utilizadas são públicas e foram incluídas apenas para fins de demonstração.
