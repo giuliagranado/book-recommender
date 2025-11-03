@@ -18,7 +18,9 @@ recomendador_livros_tfidf/
  │ └── livros.csv         # Dataset com sinopses 
  ├── scripts/ 
  │ └── recomendador.py    # Código principal 
+ │ └──add_livros.py
  ├── README.md 
+ ├── relatório.pdf
  └── requirements.txt
 </pre>
 
