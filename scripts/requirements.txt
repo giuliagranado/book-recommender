@@ -1,0 +1,6 @@
+pandas
+scikit-learn
+
+# Bibliotecas necessárias para:
+# Manipular o CSV (pandas)
+# Calcular TF-IDF e similaridade de cosseno (scikit-learn)
