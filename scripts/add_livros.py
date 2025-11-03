@@ -10,6 +10,13 @@ def adicionar_livro():
     genero = input("Gênero: ")
     sinopse = input("Sinopse: ")
 
+    # Validação de tamanho do tamanho da sinopse
+    if len(sinopse) > 800:
+        print(f"⚠️ Sinopse muito longa ({len(sinopse)} caracteres). Limite de 800 caracteres.")
+        confirmar = input("Deseja continuar mesmo assim? (s/n): ")
+        if confirmar.lower() != 's':
+            print("❌ Livro não adicionado. Tente novamente com uma sinopse mais curta.")
+            return
     novo_livro = {
         'titulo': titulo,
         'autor': autor,
@@ -22,7 +29,7 @@ def adicionar_livro():
         df = pd.concat([df, pd.DataFrame([novo_livro])], ignore_index=True)
     else:
         df = pd.DataFrame([novo_livro])
-        
+
     df.to_csv(CAMINHO_CSV, index=False)
     print("✅ Livro adicionado com sucesso!")
 
