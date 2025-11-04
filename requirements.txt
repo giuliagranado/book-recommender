@@ -1,6 +1,7 @@
 pandas
 scikit-learn
 nltk
+os
 
 # Bibliotecas necessárias para:
 # Manipular o CSV (pandas)
@@ -40,4 +41,5 @@ tqdm==4.67.1
 tzdata==2025.2
 urllib3==2.5.0
 zipp==3.23.0
+
 
