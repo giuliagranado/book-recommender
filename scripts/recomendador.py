@@ -56,7 +56,7 @@ def recomendar_livros(descricao, top_n=3):
         similaridades = cosine_similarity(entrada, matriz_tfidf).flatten()
         indices = similaridades.argsort()[::-1][:top_n]
 
-        # Palavras-chave da descrição
+        # palavras-chave da descrição
         pesos = entrada.toarray()[0]
         termos = vetor.get_feature_names_out()
         top_indices = np.argsort(pesos)[::-1][:5]
@@ -64,7 +64,7 @@ def recomendar_livros(descricao, top_n=3):
 
 
         print("\n🔍 Palavras-chave da sua descrição:", ', '.join(top_termos))
-        # Exibe recomendações em formato de bloco
+        # exibe recomendações em formato de bloco
         print("\n📚 Recomendações:")
         for i in indices:
             livro = df.iloc[i]
